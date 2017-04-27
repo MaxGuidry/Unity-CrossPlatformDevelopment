@@ -1,15 +1,17 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
 
 public class RunChoiceBehaviour : MonoBehaviour
 {
-    public Text info;
-	public void Run()
+    public Camera mainCamera;
+    public Text InformationText;
+    private float wimpTimer = 2.0f;
+    public void Run()
     {
-        info.text = "You are running..." + Environment.NewLine;
+        const string info = "Run Choice Selected I am running....";
+        InformationText.text += info + Environment.NewLine;
+        mainCamera.gameObject.AddComponent<Wimp>();
     }
-	
+  
 }
