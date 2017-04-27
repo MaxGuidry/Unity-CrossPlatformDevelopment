@@ -1,13 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using System;
 
 public class RunChoiceBehaviour : MonoBehaviour
-{    
-
+{
+    public Text info;
 	public void Run()
     {
-        Debug.Log("Run Choice Selected I am running....");
+        info.text = "You are running..." + Environment.NewLine;
     }
 	
 }
