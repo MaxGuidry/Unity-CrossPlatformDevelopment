@@ -11,7 +11,7 @@ public class RunChoiceBehaviour : MonoBehaviour
     {
         const string info = "Run Choice Selected I am running....";
         InformationText.text += info + Environment.NewLine;
-        mainCamera.gameObject.AddComponent<Wimp>();
+// mainCamera.gameObject.AddComponent<Wimp>();
     }
   
 }
