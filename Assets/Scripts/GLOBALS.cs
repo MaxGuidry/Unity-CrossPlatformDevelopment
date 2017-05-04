@@ -6,6 +6,8 @@
     public static readonly string XBOX_B = "XBOX_B";
     public static readonly string XBOX_X = "XBOX_X";
     public static readonly string XBOX_Y = "XBOX_Y";
+    public static readonly string VERTICAL = "Vertical";
+    public static readonly string HORIZONTAL = "Horizontal";
     public static readonly string RIGHTHORIZONTAL = "RightHorizontal";
     public static readonly string LEFTHORIZONTAL = "LeftHorizontal";
     public static readonly string RIGHTVERTICAL = "RightVertical";

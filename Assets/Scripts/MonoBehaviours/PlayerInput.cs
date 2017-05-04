@@ -13,7 +13,7 @@ public class PlayerInput : MonoBehaviour
     {
         get
         {
-            return new Vector2(Input.GetAxis(Strings.LEFTHORIZONTAL), Input.GetAxis(Strings.LEFTVERTICAL));
+            return new Vector2(Input.GetAxis(Strings.HORIZONTAL), Input.GetAxis(Strings.VERTICAL));
         }
     }
 
